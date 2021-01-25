@@ -1,0 +1,27 @@
+{
+	"name": "mirusz-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mirusz9/miruszBot.git"
+	},
+	"keywords": [],
+	"author": "mirusz9",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mirusz9/miruszBot/issues"
+	},
+	"homepage": "https://github.com/mirusz9/miruszBot#readme",
+	"dependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/node": "^14.14.22",
+		"discord.js": "^12.5.1",
+		"dotenv": "^8.2.0"
+	}
+}
